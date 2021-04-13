@@ -2645,7 +2645,31 @@
     remark-gfm "^1.0.0"
     zen-observable "^0.8.15"
 
-"@backstage/plugin-catalog@^0.2.0", "@backstage/plugin-catalog@^0.2.1":
+"@backstage/plugin-catalog@^0.2.0":
+  version "0.3.0"
+  dependencies:
+    "@backstage/catalog-client" "^0.3.5"
+    "@backstage/catalog-model" "^0.7.1"
+    "@backstage/core" "^0.6.0"
+    "@backstage/plugin-catalog-react" "^0.0.2"
+    "@backstage/plugin-scaffolder" "^0.4.2"
+    "@backstage/theme" "^0.2.3"
+    "@material-ui/core" "^4.11.0"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.45"
+    "@types/react" "^16.9"
+    classnames "^2.2.6"
+    git-url-parse "^11.4.4"
+    moment "^2.26.0"
+    react "^16.13.1"
+    react-dom "^16.13.1"
+    react-helmet "6.1.0"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    react-use "^15.3.3"
+    swr "^0.3.0"
+
+"@backstage/plugin-catalog@^0.2.1":
   version "0.3.0"
   dependencies:
     "@backstage/catalog-client" "^0.3.5"
@@ -11750,9 +11774,9 @@ date-fns@^1.27.2:
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
 
 date-fns@^2.0.0-alpha.27, date-fns@^2.0.1, date-fns@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.15.0.tgz#424de6b3778e4e69d3ff27046ec136af58ae5d5f"
-  integrity sha512-ZCPzAMJZn3rNUvvQIMlXhDr4A+Ar07eLeGsGREoWU19a3Pqf5oYa+ccd+B3F6XVtQY6HANMFdOQ8A+ipFnvJdQ==
+  version "2.20.2"
+  resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.20.2.tgz#7f05d1275e1e43c3bdde5998201920098e19c6a1"
+  integrity sha512-QS0Z8SD/ALhKFvhtU4Fhz+1crsI7fPzBquXmdWay33KJPEU7btro2hnmmErpQRmt2D624B1lbjXQKDUMLnQTmQ==
 
 dateformat@^3.0.0:
   version "3.0.3"
